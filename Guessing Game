@@ -1,0 +1,20 @@
+secret_word = "rainbow"
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False
+guesses = ""
+while guesses != secret_word and not(out_of_guesses):
+    if guess_count < guess_limit:
+        guesses = input("Enter guess: ")
+        if guesses != secret_word and guess_count == 0:
+            print("The first letter is " + secret_word[0])
+        guess_count = guess_count + 1
+        if guess_count == 2:
+            print("The last letter is " + secret_word [-1])
+    else:
+        out_of_guesses = True
+if out_of_guesses:
+    print("Out of guesses. You lose!")
+    print("Secret word: " + secret_word)
+else:
+    print("You win!")
