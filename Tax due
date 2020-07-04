@@ -1,0 +1,6 @@
+Name = input("Please enter your name: ")
+Income = input("Please input your yearly income: ")
+Tax = input("Please write your yearly tax rate: ")
+TTax = float(Income) * float(Tax)
+result = str(TTax)
+print(Name + ", your yearly tax due is: " + result)
