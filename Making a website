@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<h1>Sumaya's Home Bakery</h1>
+  <h2>Cakes and Pastries Made With Simple Ingredients!</h2>
+  <h3>
+    <p>Our food is made on demand upon orders and are ready to pick up in 24 hours or less. We use only the freshest ingredients with no preservatives. Our food is 100% Halal. We also cater to vegetarian and vegan options. Do you want cakes, pastries, drinks, and other desserts made with less sugar and fewer ingredients? Then give Sumaya's Home Bakery a try! Locations can be found <a href="https://www.google.com/maps/place/41-06+Denman+St,+Flushing,+NY+11373/@40.7463399,-73.8769096,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25fb1a5b707f5:0x2291e78d983e1882!8m2!3d40.7463399!4d-73.8747209">here.</a>
+
+    <ul>
+      <li> Contact Us</li>
+      <li> Sign Up</li>
+      <li> Place an Oder</li>
+      <li> Give Feedback</li>
+      <li> About Us</li>
+    </ul>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
