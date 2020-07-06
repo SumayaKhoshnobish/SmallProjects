@@ -1,0 +1,24 @@
+noStroke();
+var xPos = 130;
+var yPos = 350;
+var xPos1 = 90;
+var yPos1 = 190;
+var xPos3 = 210;
+var yPos3 = 410;
+var starSize = 10;
+var starSize2 = 5;
+background(8, 9, 20);
+draw = function() {
+    fill(240, 233, 19);
+    ellipse(xPos, yPos, starSize, starSize);
+    ellipse(xPos1, yPos1, starSize2, starSize2);
+    ellipse(xPos3, yPos3, starSize2, starSize2);
+    xPos+=1;
+    yPos-=1;
+    starSize+=1;
+    xPos1+=0.4;
+    yPos1-=0.4;
+    xPos3+=0.4;
+    yPos3-=0.4;
+    starSize2+=0.5;
+};
