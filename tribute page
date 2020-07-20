@@ -1,0 +1,96 @@
+<style>
+body {
+  
+  font-family: system-ui;
+  background: white;
+  color: black;
+  text-align: center;
+}
+#main{
+   font-family: system-ui;
+  background: white;
+  color: black;
+  text-align: center;
+  
+}
+h2{
+  font-size: 50px;
+}
+h3{
+  
+}
+h4{
+  
+}
+#summary{
+  font-size: 25px;
+  background: teal;
+  font-family: arial;
+  
+}
+#title{
+  color: red;
+}
+#img-div{
+  text-align: center;
+  
+}
+#image{
+  max-width: 100%;
+  height: auto;
+}
+#img-caption{
+  font-size: 13px;
+  color: gray;
+  
+}
+#tribute-info{
+  text-align: left;
+  background: teal;
+  font-size: 23px;
+  color: black;
+}
+.footer{
+  bacground: gray;
+}
+#tribute-link{
+}
+</style>
+
+<body id="main">
+<h1 id="title">Marie Curie</h1>
+<h2>A woman of science</h2>
+<h3>
+  <p id="summary">Marie Skłodowska Curie (7 November 1867 – 4 July 1934), was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields. She was part of the Curie family legacy of five Nobel Prizes. She was also the first woman to become a professor at the University of Paris, and in 1995 became the first woman to be entombed on her own merits in the Panthéon in Paris.</p>
+  <div id="img-div">
+    <img id="image" src="https://luxebeatmag.com/wp-content/uploads/2015/05/marie-curie_toned.jpg" alt="Marie Curie stands in front of her labratory holding a vial of chemical">
+    <p id="img-caption">Marie Curie stands in front of her labratory holding a vial of chemicals</p>
+  </div>
+<main>
+  <h4 id="tribute-info">Timeline of Marie Curie's life :
+  <p>
+    <div>
+    <ul>
+      <li>1867: Marie Curie was born in Poland</li>
+      <li>1891: Moves to Paris</li>
+      <li>1895: Marie married Pierre Curie, which was when her name became Marie Curie.</li>
+      <li>1897: Marie's first daughter, Irene, is born.</li>
+      <li>1902: Marie was hired to do some experiments. While working on them she discovered pure radium.</li>
+      <li>1903: Marie and her husband, Pierre, were awarded a Nobel Prize for their work with radioactivity.</li>
+      <li>1906: Marie's husband, Pierre, was killed in an accident. She took his place teaching at Sorbonne and was the first woman professor there.</li>
+      <li>1911: Marie won her second Nobel Prize, this time on her own, for her continued work in radioactivity.</li>
+      <li>1914: During WWI, Marie used her radioactive research materials to do "x-rays". The x-rays found bullets and other shrapnel in wounded soldiers. </li>
+      <li>1922: Marie became a member of the French Academy of Medicine. She devoted herself to using her knowledge to help people.</li>
+      <li>1929: Marie was honored everywhere she went, and was given a gram of radium as a gift.</li>
+      <li>1932: Marie and her sister started a research facility to help fight cancer. It is still opened today and is called the Marie Sklodowska Curie Oncology Center.</li>
+      <li>1934: Marie Curie dies from prolonged exposure to radiation.</li>
+    </ul>
+    </div>
+   
+</main>
+<footer>
+      <p class="footer">To learn more about Marie Curie and her achievments, click <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Marie_Curie">here</a></p>
+    </footer>
+  </body>
+   
+  
